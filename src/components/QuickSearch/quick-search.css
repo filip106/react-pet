@@ -1,0 +1,21 @@
+.quick-search-container {
+    background-color: rgb(146, 132, 82);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    width: 100%;
+    height: 500px;
+}
+
+.grid-item {
+    background-color: #d29334;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
