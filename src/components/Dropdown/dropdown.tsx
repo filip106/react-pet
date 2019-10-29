@@ -22,7 +22,7 @@ class Dropdown extends React.Component <{
         )
     }
 
-    handleSelect = value => {
+    handleSelect = (value: String) => {
         console.log(value);
     };
 
