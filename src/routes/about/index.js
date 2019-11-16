@@ -1,5 +1,12 @@
 import React from "react";
+import AboutUsComponent from "../../components/AboutUs/about-us";
 
-export default function () {
-    return <h1>About page</h1>;
-};
+class App extends React.Component {
+  render() {
+    return (
+      <AboutUsComponent/>
+    );
+  }
+}
+
+export default App;
