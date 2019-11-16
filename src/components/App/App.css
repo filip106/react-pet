@@ -1,6 +1,6 @@
 .top-menu {
   background-color: #ffa15f;
-  padding: 20px 50px 20px 50px;
+  padding: 10px 50px 10px 50px;
   user-select: none;
 }
 
@@ -10,18 +10,22 @@
 
 .top-menu > .right > * {
   margin-left: 5px;
+  margin-top: 10px;
 }
 
 .top-menu > .left {
   float: left;
+  width: 20%;
+  margin-top: 10px;
 }
 
 .top-menu > .left > * {
   margin-right: 5px;
+  width: 45%;
 }
 
 .top-menu > .left > *, .top-menu > .right > * {
-  padding: 11.4px;
+ /* padding: 11.4px;*/
   display: inline-block;
   text-align: center;
   min-width: 50px;
